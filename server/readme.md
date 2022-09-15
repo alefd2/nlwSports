@@ -23,6 +23,12 @@
     useVoiceChannel
     createdAt
 
+### >>> Game
+
+- Listagem de games com contagem de anúncios
+- Criação de novo anúncio
+- Listagem de anúncios por game
+- Buscar discorde pelo ID do anúncio
 
 
 ## <b>Documentação </b>
@@ -31,8 +37,13 @@
 ## Tenologias
   - NodeJS
   - TypeScript
-  - Express
-
+  - Express 
+  - prisma 
+    - npm -i prisma
+    - npx prisma init --datasource-provider SQLite
+    - npx prisma migrate dev
+    - npx prisma studio
+    - npm i @prisma@client
 ## Configs
 ### typeScript
     tsconfig.json
