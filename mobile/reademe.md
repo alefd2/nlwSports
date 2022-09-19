@@ -1,4 +1,4 @@
-# SERVER
+# MOBILE
 ## <b>Documentação </b>
 #
 
@@ -35,15 +35,15 @@
 #
 
 ## Tenologias
-  - NodeJS
-  - TypeScript
-  - Express 
-  - prisma 
-    - npm -i prisma
-    - npm i @prisma@client
-    - npx prisma init --datasource-provider SQLite
-    - npx prisma migrate dev
-    - npx prisma studio
+  - React Native 
+    - expo init
+    - expo start
+  - React Navigation
+    - npm install @react-navigation/native
+    - npx expo install react-native-screens eact-native-safe-area-context
+      - yarn add @react-navigation/native-stack
+
+
 ## Configs
 ### typeScript
     tsconfig.json

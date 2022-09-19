@@ -18,5 +18,5 @@ export const Background = ({ children }: Props) => {
                 
             {children}
         </ImageBackground>
-    )
+     )
 }
