@@ -42,6 +42,7 @@
     - npm install @react-navigation/native
     - npx expo install react-native-screens eact-native-safe-area-context
       - yarn add @react-navigation/native-stack
+  - PhosPhor
 
 
 ## Configs

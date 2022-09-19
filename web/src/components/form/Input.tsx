@@ -10,7 +10,6 @@ export const Input = (props: ImputProps) => {
 
         <input 
             {...props}
-            placeholder="Selecione o game que deseja jogar"
             className="bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500"
         />
 
